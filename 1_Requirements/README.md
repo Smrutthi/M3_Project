@@ -1,11 +1,13 @@
 # Introduction
-Windshield wipers generally necessary for maintaining appropriate vision for the driver, especially in modern high-speed cars. In this project, the wiper blades' speed varies in accordance with the rate of rainfall.
+Windshield wipers generally necessary for maintaining appropriate vision for the driver, especially in modern high-speed cars. Rain, snow, mud, pollen, frost, and other pollutants are swept away by wiper blades in cars. In this project, the wiper blades' speed is varied in accordance with the rate of rainfall.
 # Features
 # Research
 # Software Used
-STM CUBE IDE
+* STM CUBE IDE
 # Component Description
+
 # Working Procedure
+
 # SWOT Analysis
 ![SWOT-Analysis-Examples](https://user-images.githubusercontent.com/89585989/168295365-8f0ae206-d032-4646-becf-61d72a3a18c1.png)
 ## Strength
