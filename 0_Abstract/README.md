@@ -1,2 +1,5 @@
 # Abstract
-Driving securely requires a high level of visibility. Rain, snow, mud, pollen, frost, and other pollutants are swept away by wiper blades in cars. Windshield wipers enhance visibility, efficiency, and reliability. 
+A substantial rate of vision is essential while driving safe. Rain, snow, mud, pollen, frost, and other pollutants are swept away by wiper blades in cars. Wiper blades on the windscreen optimize clarity, effectiveness, and dependability. If debris remains on the windscreen for an extended duration of time, it is challenging to clean them. When these dirt are not cleaned, this will obstruct the driver's vision and increase the danger of a car accident. Rain-sensing wipers are indeed a comparatively new innovation in wiper technology. A rain sensor is used in many windshield systems nowadays calculate the speed during which droplets fall on the windscreen. Rain-sensing wipers become quite appealing as they attempt to reduce the amount of time the driver has take his or her hands off the wheel. In this project, the wiper blades' speed is varied in accordance with the rate of rainfall.
+# Objective
+* To detach dust, mud, rain drops, snow and other debris from the windshield
+* To assure a perfect view for driving safety
