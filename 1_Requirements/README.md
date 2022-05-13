@@ -16,11 +16,11 @@ In this project, the wiper blades' speed varies in accordance with the rate of r
 ## What
 This project contains wiper blades that helps to remove dust, rain drops, snow and other scraps for enhanced vision
 ## Why
-This project is useful to 
+This project is useful that c
 ## When
-This project can be used at the time of designing the digital circuit
+This wiper control system project can be used at the time of raining for clear visibility of things in opposite side
 ## Who
-This project can be useful for digital circuit developers as well as for students for performing quick calculation
+This project can be useful for passengers for clear visibility while driving
 ## How
 This project helps to perform the conversion calculation in order to reduce the users time
 # Requirement
