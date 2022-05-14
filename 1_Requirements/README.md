@@ -4,8 +4,11 @@ Windshield wipers generally necessary for maintaining appropriate vision for the
 * To detach dust, mud, rain drops, snow and other debris from the windshield
 * To assure a perfect view for driving safety
 # Features
-
+* Accordance with the amount of rain drops, the speed of the wiper blades are varied
+* Wiper System is turned ON when the button is pressed twice 
+* Wiper System is turned OFF when the button is pressed thrice
 # Research
+In 1903, American inventor Mary Anderson was credited with inventing the first working windshield wiper. By 1917, John Oeishi had established the Tri-Continental Corporation, that would subsequently become Trico, one of the world's major windshield wiper suppliers. The hand-cranked wiper had indeed been modified with a device that used engine vacuum to drive the motor by the early 1920s. Vaccuum wipers were substituted by an electric drive in the beginning of 1960s, and the intermittent wiper was designed in the mid 1960s. Later on with the development of technologies, the wiper windshields also got updated.
 # Hardware Component
 * STM32F407 Microcontroller Board
 # Software Used
@@ -58,7 +61,7 @@ This project alters the speed of the wiper blades according to the rate of rainf
 ## Low Level Requirements
 | ID  | Description | Status |
 | --- | --- | --- |
-| LLR-1 | Switch Button when pressed for the first time and held for 2 secs the Red LED is ON  | Implemented |
-| LLR-2 | Switch Button when pressed for the second time the Blue, Green and Orange LEDs are ON one at a time with the set frequency | Implemented |
-| LLR-3 | Switch Button when pressed for the third time the Orange, Green and Blue LEDs are OFF  | Implemented |
-| LLR-4 | Switch Button when pressed for the fourth time and held for 2 secs the Red LED is OFF | Implemented |
+| LLR-1 | Switch Button when pressed first time and held for 2 secs the Red LED is ON  | Implemented |
+| LLR-2 | Switch Button when pressed second time Blue, Green and Orange LEDs are ON one at a time with set frequency | Implemented |
+| LLR-3 | Switch Button when pressed third time the Orange, Green and Blue LEDs are OFF  | Implemented |
+| LLR-4 | Switch Button when pressed fourth time and held for 2 secs the Red LED is OFF | Implemented |
