@@ -13,7 +13,7 @@ In this project STM32F407G Microcontroller is used. When the push button is pres
 ## Strength
 * This project is helpful for the removal of dust, rain drops, snow and other scraps quickly
 * This project allows for enhanced vision
-* 
+* Supportive for escaping from accidents due to the rain drops in the windscreen
 ## Weakness
 * The wipers may not clean some areas in automobiles
 * Need to renewed the wipers after a predetermined amount of time
