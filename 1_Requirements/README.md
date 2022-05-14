@@ -7,7 +7,7 @@ Windshield wipers generally necessary for maintaining appropriate vision for the
 # Component Description
 
 # Working Procedure
-
+In this project STM32F407G Microcontroller is used. When the push button is pressed first, the Red LED is ON and holds for 2 sec indicating Ignition key position at ACCESSORY. While pressing the button for second time, Blue LED is ON with the frequency of 1 Hz then followed by Green LED is ON with the frequency of 
 # SWOT Analysis
 ![SWOT-Analysis-Examples](https://user-images.githubusercontent.com/89585989/168295365-8f0ae206-d032-4646-becf-61d72a3a18c1.png)
 ## Strength
@@ -32,7 +32,7 @@ This wiper control system project can be used at the time of raining for clear v
 ## Who
 This project benefits travellers by improving visibility during riding
 ## How
-This project helps 
+This project helps the drivers for a safety travel
 # Requirement
 ## High Level Requirements
 | ID  | Description | Status |
@@ -44,5 +44,5 @@ This project helps
 ## Low Level Requirements
 | ID  | Description | Status |
 | --- | --- | --- |
-| LLR-1 | User able to read output data | Implemented |
-| LLR-2 | Displays output data without any errors | Implemented |
+| LLR-1 |  | Implemented |
+| LLR-2 |  | Implemented |
