@@ -4,48 +4,48 @@
 #include "stm32f4xx_hal.h"
 
 void Init_OnBoard(void);
-void Delay(volatile int time);
+void Delay_sec(volatile int time_sec);
 int main(void)
 {
-	Init_OnBoard_LEDs();
+	Init_OnBoard();
   static int Sw_Count=0;     
 	while(1)
 	{
   if(Sw_Count==1) 
   {
   HAL_GPIO_TogglePin(GPIOD,GPIO_PIN_14);
-	Delay(10000);
+  Delay_sec(10000);
   HAL_GPIO_TogglePin(GPIOD,GPIO_PIN_15);
-  Delay(10000);
+  Delay_sec(10000);
   HAL_GPIO_TogglePin(GPIOD,GPIO_PIN_12);
-  Delay(10000);
+  Delay_sec(10000);
   HAL_GPIO_TogglePin(GPIOD,GPIO_PIN_13);
-  Delay(10000);
+  Delay_sec(10000);
   }
   if(Sw_Count==2) 
   {
   HAL_GPIO_TogglePin(GPIOD,GPIO_PIN_14);
-	Delay(2500);
+  Delay_sec(2500);
   HAL_GPIO_TogglePin(GPIOD,GPIO_PIN_15);
-  Delay(2500);
+  Delay_sec(2500);
   HAL_GPIO_TogglePin(GPIOD,GPIO_PIN_12);
-  Delay(2500);
+  Delay_sec(2500);
   HAL_GPIO_TogglePin(GPIOD,GPIO_PIN_13);
-  Delay(2500); 
-	}
+  Delay_sec(2500); 
+  }
   if(Sw_Count==3) 
   {
   HAL_GPIO_TogglePin(GPIOD,GPIO_PIN_14);
-	Delay(1250);
+  Delay_sec(1250);
   HAL_GPIO_TogglePin(GPIOD,GPIO_PIN_15);
-  Delay(1250);
+  Delay_sec(1250);
   HAL_GPIO_TogglePin(GPIOD,GPIO_PIN_12);
-  Delay(1250);
+  Delay_sec(1250);
   HAL_GPIO_TogglePin(GPIOD,GPIO_PIN_13);
-  Delay(1250); 
-	}
+  Delay_sec(1250); 
 }
-
+}
+}
 void Init_OnBoard(void)
 {
 	 __HAL_RCC_GPIOD_CLK_ENABLE();
