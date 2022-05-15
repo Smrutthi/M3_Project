@@ -11,6 +11,6 @@ H_04  | Engine System OFF | Switch button pressed fourth time | Engine OFF | Eng
 Test ID | Description | Exp I/P | Exp O/P | Actual Output | Type of test  
 --------|-------------|---------|---------|---------------|---------------
 L_01  | Engine System ON condition | Button pressed once | Red LED ON | Red LED ON | Requirement based
-L_02  | Wiper System ON condition | Button pressed twice | Blue, Green and Orange LEDs ON one by one | Blue, Green and Orange LEDs ON one by one | Requirement based
-L_03  | Wiper System OFF condition | Button pressed thrice | Orange, Green and Blue LEDs OFF one by one | Orange, Green and Blue LEDs OFF one by one | Requirement based
+L_02  | Wiper System ON condition | Button pressed twice | Blue, Green and Orange LEDs ON one by one | Blue, Green and Orange LEDs ON one after other | Requirement based
+L_03  | Wiper System OFF condition | Button pressed thrice | Orange, Green and Blue LEDs OFF one by one | Orange, Green and Blue LEDs OFF one after other | Requirement based
 L_04  | Engine System OFF condition | Button pressed four times | Red LED OFF | Red LED OFF | Requirement based
