@@ -1,3 +1,6 @@
+# Wiper Control System
+![how-to-care-for-wiper-blades](https://user-images.githubusercontent.com/89585989/168457897-14d7e952-26ed-4805-a904-d63cfb6b15ff.jpg)
+
 # Abstract
 A substantial rate of vision is essential while driving safe. Rain, snow, mud, pollen, frost, and other pollutants are swept away by wiper blades in cars. Wiper blades on the windscreen optimize clarity, effectiveness, and dependability. If debris remains on the windscreen for an extended duration of time, it is challenging to clean them. When these dirt are not cleaned, this will obstruct the driver's vision and increase the danger of a car accident. Rain-sensing wipers are indeed a comparatively new innovation in wiper technology. A rain sensor is used in many windshield systems nowadays calculate the speed during which droplets fall on the windscreen. Rain-sensing wipers become quite appealing as they attempt to reduce the amount of time the driver has take his or her hands off the wheel. In this project, the wiper blades' speed is varied in accordance with the rate of rainfall.
 # Introduction
@@ -70,8 +73,30 @@ This project alters the speed of the wiper blades according to the rate of rainf
 # Design
 * Structural Diagram
 * Behavioral Diagram
-1. Structural Diagram
+# 1. Structural Diagram
 Structural diagrams are a type of visual design that depicts the stages required to solve a problem. The structural diagram depicts the hierarchy or structure of the system's many components or modules, as well as how they connect and interact with one another.
+![Structural Drawing](https://user-images.githubusercontent.com/89585989/168457798-2dd23d76-ef6a-41ee-92ff-be814479560e.png)
 
-2. Behavioral Diagram
+# 2. Behavioral Diagram
 Behavior diagrams depict the items in a system's dynamic behavior which can be represnted as a series of changes over time. A behavior diagram is intended to provide clarity.
+
+![Behavioral Diagram](https://user-images.githubusercontent.com/89585989/168457838-fb5b9395-9a2f-4f95-a3cb-ea6c47063505.png)
+# Block Diagram
+![Block Diagram](https://user-images.githubusercontent.com/89585989/168458070-37289e1a-0c0e-40b0-a4d0-1f3251992597.png)
+
+# Test Plan
+## Table no 1: High level test plan
+Test ID | Description | Exp I/P | Exp O/P | Actual Output | Type of test  
+--------|-------------|---------|---------|---------------|---------------
+H_01  | Engine System ON | Switch button pressed one time | Engine ON | Engine ON | Requirement based
+H_02  | Wiper System ON | Switch button pressed second time | Wiper ON | Wiper ON | Requirement based
+H_03  | Wiper System OFF | Switch button pressed third time | Wiper OFF | Wiper OFF  | Requirement based
+H_04  | Engine System OFF | Switch button pressed fourth time | Engine OFF | Engine OFF | Requirement based
+
+## Table no 2: Low level test plan
+Test ID | Description | Exp I/P | Exp O/P | Actual Output | Type of test  
+--------|-------------|---------|---------|---------------|---------------
+L_01  | Engine System ON condition | Button pressed once | Red LED ON | Red LED ON | Requirement based
+L_02  | Wiper System ON condition | Button pressed twice | Blue, Green and Orange LEDs ON one by one | Blue, Green and Orange LEDs ON one by one | Requirement based
+L_03  | Wiper System OFF condition | Button pressed thrice | Orange, Green and Blue LEDs OFF one by one | Orange, Green and Blue LEDs OFF one by one | Requirement based
+L_04  | Engine System OFF condition | Button pressed four times | Red LED OFF | Red LED OFF | Requirement based
