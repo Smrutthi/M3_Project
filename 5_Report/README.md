@@ -118,3 +118,4 @@ Wiper System is ON - Blue, Green and Orange LED are ON one after the other
 
 Wiper System and Engine is OFF - All LEDs are OFF
 
+![Screenshot (214)](https://user-images.githubusercontent.com/89585989/168482495-e2cacf9c-4d46-4b57-93b5-fddfc940d2ed.png)
