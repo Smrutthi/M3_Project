@@ -23,7 +23,7 @@ Folder             | Description
 # Contributor List and Summary
 Name               |    Features   |No Test Cases|Test Case Pass
 ---------------------|----------------|----------------|--------------
-Smrutthi   | Entire Project (Requirements, Architecture, Implementation, TestPlanAndOutput and Report)  | 4 | 4
+Smrutthi   | Entire Project (Requirements, Design, Implementation, TestCases, Report and Output)  | 4 | 4
 # Integrated Tools to GitHub
 * [Codacy](https://www.codacy.com/)
 * [Codiga](https://www.codiga.io/)
