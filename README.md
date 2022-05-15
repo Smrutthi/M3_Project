@@ -7,6 +7,9 @@
 * Codiga - Static code analysis
 
 ![Codiga Badge](https://api.codiga.io/project/33527/status/svg)![Codiga score](https://api.codiga.io/project/33527/score/svg)
+Analysis | Build | cppcheck | Valgrind | Git Inspector 
+--------|-------------|----------|-----------|-------------
+ [![Analysis](https://github.com/Smrutthi/M3_Wiper-Control-System/actions/workflows/Analysis.yml/badge.svg)](https://github.com/Smrutthi/M3_Wiper-Control-System/actions/workflows/Analysis.yml)|[![Build CI - Windows](https://github.com/Smrutthi/M3_Wiper-Control-System/actions/workflows/Build-Windows.yml/badge.svg)](https://github.com/Smrutthi/M3_Wiper-Control-System/actions/workflows/Build-Windows.yml)[![Build CI -Linux](https://github.com/Smrutthi/M3_Wiper-Control-System/actions/workflows/Build-Linux.yml/badge.svg)](https://github.com/Smrutthi/M3_Wiper-Control-System/actions/workflows/Build-Linux.yml) | [![cppcheck-action](https://github.com/Smrutthi/M3_Wiper-Control-System/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/Smrutthi/M3_Wiper-Control-System/actions/workflows/cppcheck.yml)|[![Valgrind](https://github.com/Smrutthi/M3_Wiper-Control-System/actions/workflows/Valgrind.yml/badge.svg)](https://github.com/Smrutthi/M3_Wiper-Control-System/actions/workflows/Valgrind.yml)|[![Contribution Check - Git Inspector](https://github.com/Smrutthi/M3_Wiper-Control-System/actions/workflows/Git_inspector.yml/badge.svg)](https://github.com/Smrutthi/M3_Wiper-Control-System/actions/workflows/Git_inspector.yml) 
 # Folder Structure
 Folder             | Description
 -------------------| -----------------------------------------
