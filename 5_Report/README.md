@@ -18,10 +18,12 @@ In 1903, American inventor Mary Anderson was credited with inventing the first w
 * STM32F407 Microcontroller Board
 # Software Used
 * STM CUBE IDE
-* QEMO
+* QEMU
 # Component Description
 ## STM32F407 Microcontroller
 The STM32F407 associate to the family of  microcontroller with an ARM cortex-M4 core that is designed on the RISC (Reduced-instruction-set Computing) architecture. This module includes high-speed embedded memory units such as flash memory with a storage capacity of one megabyte, static random access memory with a storage space of ninety kilobytes and four-kilobyte static ram as a backup memory unit. There are 12 GP sixteen bit timers, along with two pulse width modulation timers for motor speed management. There are also 2 GP thirty-two bit timers. With the use of three AHB buses and a thirty-two-bit multi AHB bus matrix, this component can connect to a variety of external devices via the APB bus.
+
+![image](https://user-images.githubusercontent.com/89585989/168477295-efb0a6ea-7bbd-49cd-bfcd-486e5d2a9d74.png)
 ## Features
 * Up to 17 timers: up to twelve 16-bit and two 32-bit timers up to 168 MHz, each with up to 4 IC/OC/PWM or pulse counter
 * Clock, reset and supply management
@@ -100,3 +102,19 @@ L_01  | Engine System ON condition | Button pressed once | Red LED ON | Red LED 
 L_02  | Wiper System ON condition | Button pressed twice | Blue, Green and Orange LEDs ON one by one | Blue, Green and Orange LEDs ON one by one | Requirement based
 L_03  | Wiper System OFF condition | Button pressed thrice | Orange, Green and Blue LEDs OFF one by one | Orange, Green and Blue LEDs OFF one by one | Requirement based
 L_04  | Engine System OFF condition | Button pressed four times | Red LED OFF | Red LED OFF | Requirement based
+
+# Output
+Engine is ON - Red LED is ON
+
+![Screenshot (207)](https://user-images.githubusercontent.com/89585989/168477984-7d64dbd8-c0ec-40f6-8110-f300935fa805.png)
+
+Wiper System is ON - Blue, Green and Orange LED are ON one after the other
+
+![image](https://user-images.githubusercontent.com/89585989/168478127-b9b671df-8b0a-4ee8-bb43-cb3c287c8c4b.png)
+
+![Screenshot (209)](https://user-images.githubusercontent.com/89585989/168478199-3f73822a-c3b8-4530-b8fb-69877be68c07.png)
+
+![Screenshot (211)](https://user-images.githubusercontent.com/89585989/168478292-36816e56-fc0a-4ca1-8fe7-103cf02ac406.png)
+
+Wiper System and Engine is OFF - All LEDs are OFF
+
