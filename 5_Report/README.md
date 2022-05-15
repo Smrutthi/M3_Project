@@ -82,7 +82,7 @@ Behavior diagrams depict the items in a system's dynamic behavior which can be r
 
 ![Behavioral Diagram](https://user-images.githubusercontent.com/89585989/168457838-fb5b9395-9a2f-4f95-a3cb-ea6c47063505.png)
 # Block Diagram
-![Block Diagram](https://user-images.githubusercontent.com/89585989/168458070-37289e1a-0c0e-40b0-a4d0-1f3251992597.png)
+![Block diagram](https://user-images.githubusercontent.com/89585989/168458166-325f04ec-8cb4-4e03-8388-669bb21dcfee.png)
 
 # Test Plan
 ## Table no 1: High level test plan
