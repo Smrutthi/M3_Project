@@ -13,7 +13,7 @@ In 1903, American inventor Mary Anderson was credited with inventing the first w
 * STM32F407 Microcontroller Board
 # Software Used
 * STM CUBE IDE
-* QEMO
+* QEMU
 # Component Description
 ## STM32F407 Microcontroller
 The STM32F407 associate to the family of  microcontroller with an ARM cortex-M4 core that is designed on the RISC (Reduced-instruction-set Computing) architecture. This module includes high-speed embedded memory units such as flash memory with a storage capacity of one megabyte, static random access memory with a storage space of ninety kilobytes and four-kilobyte static ram as a backup memory unit. There are 12 GP sixteen bit timers, along with two pulse width modulation timers for motor speed management. There are also 2 GP thirty-two bit timers. With the use of three AHB buses and a thirty-two-bit multi AHB bus matrix, this component can connect to a variety of external devices via the APB bus.
