@@ -1,6 +1,12 @@
 # Wiper Control System
 ![featured-image-3064](https://user-images.githubusercontent.com/89585989/168291743-5e139b73-8a04-429d-aa70-e8f64ee73f86.jpg)
 # Badges
+* Codacy - Static code analysis
+
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/8a5a5eaf0440455ea6d9270b778fea52)](https://www.codacy.com/gh/Smrutthi/M3_Wiper-Control-System/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Smrutthi/M3_Wiper-Control-System&amp;utm_campaign=Badge_Grade)
+* Codiga - Static code analysis
+
+![Codiga Badge](https://api.codiga.io/project/33527/status/svg)![Codiga score](https://api.codiga.io/project/33527/score/svg)
 # Folder Structure
 Folder             | Description
 -------------------| -----------------------------------------
@@ -14,7 +20,7 @@ Folder             | Description
 # Contributor List and Summary
 Name               |    Features   |No Test Cases|Test Case Pass
 ---------------------|----------------|----------------|--------------
-Smrutthi   | Entire Project (Requirements, Architecture, Implementation, TestPlanandOutput and Report)  | 6 | 6
+Smrutthi   | Entire Project (Requirements, Architecture, Implementation, TestPlanAndOutput and Report)  | 4 | 4
 # Integrated Tools to GitHub
 * [Codacy](https://www.codacy.com/)
 * [Codiga](https://www.codiga.io/)
