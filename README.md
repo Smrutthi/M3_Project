@@ -17,9 +17,9 @@ Folder             | Description
 `1_Requirements`   | Documents detailing requirements and research
 `2_Design`         | Documents specifying design details
 `3_Implementation` | All code and documentation
-`4_TestPlanAndOutput`      | Documents with test plans and output
+`4_TestCases`      | Documents with test plans and output
 `5_Report`  | Document consisting of all details
-`6_OutputImagesAndVideo` | Document holding output images and video
+`6_Output` | Document holding output images and video
 # Contributor List and Summary
 Name               |    Features   |No Test Cases|Test Case Pass
 ---------------------|----------------|----------------|--------------
