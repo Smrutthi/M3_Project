@@ -1,4 +1,7 @@
 # Wiper Control System
+
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/b713faaa5be842738c0b2b837fd5f155)](https://app.codacy.com/gh/Smrutthi/M3_Wiper-Control-System?utm_source=github.com&utm_medium=referral&utm_content=Smrutthi/M3_Wiper-Control-System&utm_campaign=Badge_Grade_Settings)
+
 ![featured-image-3064](https://user-images.githubusercontent.com/89585989/168291743-5e139b73-8a04-429d-aa70-e8f64ee73f86.jpg)
 # Badges
 # Folder Structure
