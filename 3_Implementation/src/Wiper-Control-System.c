@@ -1,16 +1,15 @@
 #include <stdio.h>
 #include <stdint.h>
 #include "Wiper-Control-System.h"
-#include "stm32f4xx_hal.h"
 
 void Init_OnBoard(void);
 void Delay_sec(volatile int time_sec);
 int main(void)
 {
-	Init_OnBoard();
+  Init_OnBoard();
   static int Sw_Count=0;     
-	while(1)
-	{
+  while(1)
+  {
   if(Sw_Count==1) 
   {
   HAL_GPIO_TogglePin(GPIOD,GPIO_PIN_14);
@@ -59,7 +58,7 @@ void Init_OnBoard(void)
 }
 void Delay_sec(volatile int time_sec)
 {
-	      int j;
+	int j;
         for(j = 0; j < time_sec*5000; j++)
-            {};
+            {}
 }
